@@ -13,7 +13,7 @@ def filter_rows_by_bookshelf(data, keyword):
     return filtered_data
 
 if __name__ == "__main__":
-    file_path = "./databaseFiles/pg_catalog.csv"
+    file_path = "pg_catalog.csv"
     csv_data = read_csv_to_dict(file_path)
     
     # Define keyword
